@@ -1,0 +1,28 @@
+{
+  "name": "exercise-express-calculator",
+  "version": "1.0.0",
+  "description": "Refactoriza el ejercicio del WebService Calculadora usando Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index -q",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "prompt": "^1.2.0"
+  }
+}
